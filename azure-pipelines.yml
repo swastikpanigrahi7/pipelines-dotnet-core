@@ -16,7 +16,7 @@ variables:
 
 steps:
 - task: UseDotNet@2
-displayName: "install .net core sdk"
+displayName: 'install .net core sdk'
 inputs: 
 version: 3.0.x
 performMultiLevelLookup : true
